@@ -78,6 +78,13 @@ def show_photo(file):
             return response
 
 if __name__ == '__main__':
+    files = [
+        'uploads', 'temp/ct', 'temp/draw',
+        'temp/image', 'temp/mask', 'temp/uploads'
+    ]
+    for ff in files:
+        if not os.path.exists(ff):
+            os.makedirs(f)
     with app.app_context():
         current_app.model = deploy.Predictor(
             './core/net/inference_model', use_gpu=True)
