@@ -1,5 +1,6 @@
 # 基于Paddle+Flask的眼部医疗辅助系统（前后端分离）
 
+视频链接：https://www.bilibili.com/video/BV1k54y1s7j9
 
 # 1. 项目简介：
 
