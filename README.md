@@ -1,9 +1,10 @@
 # 基于Paddle+Flask的眼部医疗辅助系统（前后端分离）
 
+视频链接：https://www.bilibili.com/video/BV1k54y1s7j9
 
 # 1. 项目简介：
 
-本项目基于PaddleX提供的DeepLabV3+语义分割模型，在眼部图像视盘分割数据集上进行训练，并开发了前后端分离项目。
+本项目基于PaddleX提供的FastSCNN语义分割模型，在眼部图像视盘分割数据集上进行训练，并开发了前后端分离项目。
 
 后端代码基于Flask开发，前端WEB界面基于VUE开发。
 
@@ -11,7 +12,6 @@
 
 # 2. 训练语义分割模型：
 
-DeepLabv3+在DeepLab模型的基础上，通过encoder-decoder进行多尺度信息的融合，提高了语义分割的健壮性和运行速率。
 
 
 ```python
@@ -170,7 +170,7 @@ python app.py
 
 在 VUE 项目下运行以下代码安装依赖：
 ```
-npm run serve
+npm install
 ```
 运行以下代码启动前端：
 ```
@@ -181,3 +181,8 @@ npm run serve
 
 ![](https://ai-studio-static-online.cdn.bcebos.com/fbd0e4b62a3a435a9afa683456bfebb3ef173c5794854576ad0279aefa2e5bdb)
 
+# 我的公众号：
+
+感兴趣的同学关注我的公众号——可达鸭的深度学习教程：
+
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210127153004430.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDkzNjg4OQ==,size_16,color_FFFFFF,t_70)
