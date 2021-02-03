@@ -181,3 +181,7 @@ npm run serve
 
 ![](https://ai-studio-static-online.cdn.bcebos.com/fbd0e4b62a3a435a9afa683456bfebb3ef173c5794854576ad0279aefa2e5bdb)
 
+# 我的公众号：
+
+感兴趣的同学关注我的公众号——可达鸭的深度学习教程：
+![在这里插入图片描述](https://img-blog.csdnimg.cn/20210127153004430.jpg?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3dlaXhpbl80NDkzNjg4OQ==,size_16,color_FFFFFF,t_70)
