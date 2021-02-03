@@ -170,7 +170,7 @@ python app.py
 
 在 VUE 项目下运行以下代码安装依赖：
 ```
-npm run serve
+npm install
 ```
 运行以下代码启动前端：
 ```
